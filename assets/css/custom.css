@@ -1,3 +1,9 @@
 .heightCards{
     height: 40vh;
 }
+
+.whiteBackgroundButton{
+    background-color: white;
+    border-color: #0a53be;
+    display: inline-block;
+}
