@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>vaultwarden.net</title>
+</head>
+<body>
+<div class="container">
+    <div class="row py-5">
+        <div class="col-12 py-4">
+            <img class="mx-auto d-block" alt="Vaultwarden Logo"
+                 src="https://vault.vaultwarden.net/images/logo-dark@2x.png"/>
+        </div>
+        <div class="container row py-2">
+            <img class="mx-auto col-3" src="https://up.obco.pro/api/badge/48/status?label=vault.vaultwarden.net"/>
+        </div>
+    </div>
+    <div class="row text-center">
+        <h1 class="text-center mb-4 pb-2 text-primary fw-bold">Unofficial public <a
+                href="https://github.com/dani-garcia/vaultwarden">Vaultwarden</a> instance</h1>
+    </div>
+    <div class="row text-center py-4">
+        <h2>Welcome to the community driven password safe</h2>
+    </div>
+    <div class="row text-center py-4">
+        <h3 class="alert alert-warning">This is a community project. We can not guarantee 100% uptime! <br> We are
+            currently running on a HA Kubernetes Cluster. <br> But power loss, network outage or human errors can not be
+            excluded. <br> Be sure to make regular encrypted backups! <br> We are not responsible for data loss!</h3>
+    </div>
+
+    <div class="row py-5">
+        <a type="button" class="btn btn-primary" href="https://vault.vaultwarden.net"><h4>Let me in!</h4></a>
+    </div>
+    <!--Section: FAQ-->
+    <section class="row py-4">
+        <h3 class="text-center mb-4 pb-2 text-primary fw-bold">FAQ</h3>
+        <p class="text-center mb-5">
+            Find the answers for the most frequently asked questions below
+        </p>
+
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h6 class="mb-3 text-primary"><i class="far fa-paper-plane text-primary pe-2"></i> Is this 100% free?
+                </h6>
+                <p>
+                    <strong><u>Absolutely!</u></strong> It is free and it will be free forever. But if you want you can
+                    donate us money via Kofi below.
+                </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h6 class="mb-3 text-primary"><i class="fas fa-pen-alt text-primary pe-2"></i> What happens if you
+                    suddenly shut down your server and i can not access my passwords anymore? </h6>
+                <p>
+                    <strong><u>This will not happen. At least not without a notification and without enough time to
+                        export your data</u></strong><br>
+                    We host our own passwords here too. There is no reason why we should shutdown this server, because
+                    we would loose our access to our own passwords too.
+                </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h6 class="mb-3 text-primary"><i class="fas fa-user text-primary pe-2"></i> Where can is see the uptime
+                    of this server?
+                </h6>
+                <p>
+                    Currently you can see the uptime at the <a href="https://up.obco.pro/status/vaultwarden-net">Status
+                    Page</a>.<br>
+                    But this is currently running on the same cluster. We are adding a second one soon.
+                </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h6 class="mb-3 text-primary"><i class="fas fa-rocket text-primary pe-2"></i> Are my passwords secure?
+                </h6>
+                <p>
+                    So secure as a self-hosted vaultwarden instance would be. This is just a normal vaultwarden server
+                    in a Kubernetes Cluster.
+                    We can not see your passwords and can not access your vault.
+                </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h6 class="mb-3 text-primary"><i class="fas fa-home text-primary pe-2"></i> Can you delete my account or
+                    my passwords?
+                </h6>
+                <p>Yes we can. But we don't do. But we encourage you to do not trust us and backup your vault
+                    frequently.</p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h6 class="mb-3 text-primary"><i class="fas fa-book-open text-primary pe-2"></i> What data do you save?
+                    Is there any tracking?
+                </h6>
+                <p>
+                    We save everything what vaultwarden saves in its default configuration. Data we have from you is
+                    only the data your provide us and your IP Address and the URL you requested. There is no tracking of
+                    your activities beyond the default.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--Section: FAQ-->
+    <h5 class="text-center">You have more questions? Contact us via Email at <a href="mailto:admin@obco.pro">admin@obco.pro</a> <br>or via Discord <a href="https://discord.com">Yonggan#8420</a> or <a href="https://discord.com">JoJo Joshua | dönerdennis.de™ ©#7815</a></h5>
+</div>
+<div class="container py-4">
+    <iframe id='kofiframe' class="mx-auto d-block"
+            src='https://ko-fi.com/yonggan/?hidefeed=true&widget=true&embed=true&preview=true'
+            style='border:none;padding:4px;background:#f9f9f9;' height='712' title='yonggan'></iframe>
+</div>
+<footer class="bg-light text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-center">
+                <a href="https://blog.obco.pro/impressum/">Impressum/Legal Disclosure</a>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-center">
+                <a href="https://blog.obco.pro/privacy/">Datenschutzerklärung/Privacy Policy</a>
+            </div>
+            <!--Grid column-->
+        </div>
+        <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+        <a class="text-dark" href="https://www.vaultwarden.net/">vaultwarden.net</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
