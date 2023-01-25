@@ -1,9 +1,16 @@
-.heightCards{
+.heightCards {
     height: 40vh;
 }
 
-.whiteBackgroundButton{
-    background-color: white;
-    border-color: #0a53be;
-    display: inline-block;
+.letMeInLogo {
+    background-color: transparent;
+    height: 10vh;
+    object-fit: contain;
+}
+
+.white-button :hover {
+    transition: transform 1s ease-in-out;
+    background-color: #4b8ef1 !important;
+    border-color: #4b8ef1 !important;
+    color: #ffffff !important;
 }
