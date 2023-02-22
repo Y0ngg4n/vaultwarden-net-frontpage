@@ -916,7 +916,7 @@ Banner Style
   margin-right: 15px;
 }
 
-.main-banner .left-content h2 {
+.main-banner .left-content h1 {
   z-index: 2;
   position: relative;
   font-weight: 700;
@@ -1958,7 +1958,7 @@ responsive
     padding-left: 20px;
   }
   
-  .main-banner .left-content h2 {
+  .main-banner .left-content h1 {
     z-index: 2;
     position: relative;
     font-weight: 700;
@@ -1979,7 +1979,7 @@ responsive
   .main-banner:after {
     display: none;
   } 
-  .main-banner .left-content h2 {
+  .main-banner .left-content h1 {
     color: #2a2a2a;
     margin-right: 0;
   }
